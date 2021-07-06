@@ -8,13 +8,12 @@ using System.Threading;
 using System.Drawing;
 
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyTitle("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyTitle("RAM Monitor")]
+[assembly: AssemblyCompany("RAM Monitor")]
 [assembly: NeutralResourcesLanguage("en")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: AssemblyProduct("TrueFalseFS")]
-[assembly: AssemblyDescription("Bool Fullscreen Mode")]
-//[assembly: Guid("ThisNeed-ToBe-Hidd-ing?-Overshadowed")]
+[assembly: AssemblyProduct("RAM Monitor")]
+[assembly: AssemblyDescription("RAM Monitor")]
 [assembly: AssemblyCopyright("Copyright © 2021 Ethan Dureus")]
 [assembly: AssemblyTrademark("Copyright © 2021 Ethan Dureus")]
 
@@ -22,6 +21,7 @@ namespace RAM_Monitor
 {
 	public class Program
 	{
+		#region Form Designer
 		partial class Form1
 		{
 			/// <summary>
@@ -58,7 +58,7 @@ namespace RAM_Monitor
 
 			#endregion
 		}
-
+		#endregion
 		public partial class Form1 : Form
 		{
 			bool Display_Messages = false;
@@ -154,6 +154,7 @@ namespace RAM_Monitor
 			}
 		}
 
+		#region Main
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>
@@ -184,6 +185,7 @@ namespace RAM_Monitor
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new Form1(Display_Messages));
 		}
+		#endregion
 	}
 }
 /*
