@@ -191,5 +191,5 @@ namespace RAM_Monitor
 /*
 HOW TO COMPILE:
 
-csc /resource:High.ico,Resources.High.ico /resource:Low.ico,Resources.Low.ico /resource:Warning.ico,Resources.Warning.ico /target:winexe Program.cs
+csc /resource:Icons/High.ico,Resources.High.ico /resource:Icons/Low.ico,Resources.Low.ico /resource:Icons/Warning.ico,Resources.Warning.ico /target:winexe Program.cs
 */
